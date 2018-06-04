@@ -1,0 +1,13 @@
+credentials:
+    hostUser:  #local user from the host that will be used to join domain conroller
+    key:  #user key path
+    ip:  #host IP
+    port:  #ssh port
+    domain_user:  #domain user that will be used to join DC (it should be domain admin)
+    mainDcIP:  #your main dc ip to simple tests
+    domain:  #domain
+    dcsIPList: 
+        #list of dcs Ips
+    dcsNameList: 
+        #list of dcs names
+    resolveDNSExternal: #external site to dns query
